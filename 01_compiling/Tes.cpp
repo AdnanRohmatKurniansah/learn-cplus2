@@ -10,8 +10,17 @@ int tambah(int a, int b) {
 
 // nyoba
 int main() {
+    int angkapertama;
+    int angkakedua;
     string text = "Penambahan";
     cout << text << endl;
-    cout << tambah(7, 9) << endl;
+    
+    cout << "Masukkan angka pertama" << endl;
+    cin >> angkapertama;
+    
+    cout << "Masukkan angka kedua" << endl;
+    cin >> angkakedua;
+
+    cout << "Hasil dari penjumlahan adalah: " << tambah(angkapertama, angkakedua) << endl;
     return 0;
 }
