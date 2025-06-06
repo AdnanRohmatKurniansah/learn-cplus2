@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+ 
 int main () {
     // max
     cout << "Max: " << max(5, 10) << endl;
