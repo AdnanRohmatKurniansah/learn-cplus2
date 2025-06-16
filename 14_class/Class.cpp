@@ -8,6 +8,10 @@ class Siswa {
         string name;
         int age;
         string gender;
+
+        void berbicara() {
+            cout << "Hello world" << endl;
+        }
 };
 
 int main() {
@@ -18,5 +22,7 @@ int main() {
     swa.gender = "Male";
 
     cout << "Nama Siswa: " << swa.name << endl;
+    swa.berbicara();
+
     return 0;
 }
