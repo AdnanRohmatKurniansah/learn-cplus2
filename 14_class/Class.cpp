@@ -9,10 +9,12 @@ class Siswa {
         int age;
         string gender;
 
-        void berbicara() {
-            cout << "Hello world" << endl;
-        }
+        string berbicara(string kalimat);
 };
+
+string Siswa::berbicara(string kalimat) {
+    return kalimat;
+}
 
 int main() {
     Siswa swa;
@@ -22,7 +24,7 @@ int main() {
     swa.gender = "Male";
 
     cout << "Nama Siswa: " << swa.name << endl;
-    swa.berbicara();
+    cout << swa.berbicara("Halo teman-teman");
 
     return 0;
 }
